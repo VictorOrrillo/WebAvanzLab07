@@ -1,4 +1,4 @@
-const {square} = require('../utils/for_testing');
+const {square} = require('../utils/for_testing')
 
 test('la funcion square esta correcta', () => {
     expect(square(25)).toBe(5);
